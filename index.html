@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <img src="images/logo.jpeg" alt="something went wrong" class="logo">
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="#" class="navbar-link home-link">Home</a></li>
+                <li><a href="#" class="navbar-link about-link">About</a></li>
+                <li><a href="#" class="navbar-link service-link">Service</a></li>
+                <li><a href="#" class="navbar-link portfolio-link">Portfolio</a></li>
+                <li><a href="#" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===========================
+        Main Section Start
+    ================================ -->
+
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">
+                        This is me
+                    </p>
+                    <h1 class="hero-heading">Nirmal Pandey</h1>
+                    <p class="hero-para">I'm Nirmal Pandey Frontend Developer , Java Developer. Specializes in using Html5, CSS , JavaScript , Java .</p>
+                    <div >
+                      <a href="#" class="btn hireMe-btn">Hire Me</a>
+                    </div>
+                </div>
+              <!-- hero section right side -->
+              <div class="section-hero-image">
+                <img src="images/hero-image.jpg" alt="This is me Nirmal Pandey" class="hero-image">
+              </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===========================
+        Bio-data Section Start
+    ================================ -->
+    <section class="section-bioData section">
+        <div class="grid container grid-two-column">
+            <div class="bio-image-section">
+                <img src="images/nirmal.jpeg" alt="something went worng" class="bio-image">
+            </div>
+
+            <!-- Right side data -->
+            <div class="bio-data">
+                <h2 class="common-heading">my bio-data</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit id molestias est consectetur in, dolor recusandae. Molestias, aliquid a autem eos quia ratione ad! Beatae obcaecati, incidunt temporibus magnam nulla quod? Nihil at voluptates, rerum 
+                </p>
+                <br/>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tempore corporis impedit eligendi vel maiores ab excepturi mollitia nulla totam.
+                </p>
+
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Design</h3>
+                        <div class="bio-progress-bar">
+                            <span>80%</span>
+                        </div>
+                    </div>
+
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress2">
+                            <span>95%</span>
+                        </div>
+                    </div>
+
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress3">
+                            <span>70%</span>
+                        </div>
+                    </div>
+
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar bio-progress4">
+                            <span>50%</span>
+                        </div>
+                    </div>
+
+                    <div class="bio-stats">
+                        <h3>Java</h3>
+                        <div class="bio-progress-bar bio-progress5">
+                            <span>70%</span>
+                        </div>
+                    </div>
+
+                </div>
+                  <div class="bio-data-button">
+                  <a href="Nirmal Pandey CV.docx" class="btn DownloadCv">Download CV</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===========================
+        Portfolio Section Start -- 
+    ================================ -->
+    <section class="section-portfolio section" id="Portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Latest Project</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odit neque ipsam, voluptate illo expedita. Placeat iusto quis rerum explicabo!
+            </p>
+
+        </div>
+
+        <div class="p-btns">
+            <button class="p-btn btn" data-btn-num="1">Website</button>
+            <button class="p-btn btn" data-btn-num="2">Youtube</button>
+            <button class="p-btn btn" data-btn-num="3">Design</button>
+            <!-- with the help of this data-btn-num property we can target all buttons -->
+        </div>
+
+        <div class="grid container grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1 p-btn--2 p-btn--3">
+                <img src="images/project5.jpg" alt="work related">
+                <div class="overlay">
+                    <a href="https://github.com/Nirmal211/Customized_shoes" target="_blank"
+                     class="common-heading"> Project 1
+                    </a>
+                </div>
+            </div> 
+
+            <div class="img-overlay  p-btn--1  p-btn--2">
+                <img src="images/project1.jpg" alt="Something went wrong">
+                <div class="overlay">
+                    <a href="#" target="_blank"
+                     class="common-heading"> Project 2
+                    </a>
+                </div>
+            </div> 
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/project2.jpg" alt="Something went wrong">
+                <div class="overlay">
+                    <a href="#" target="_blank"
+                     class="common-heading"> Project 3
+                    </a>
+                </div>
+            </div> 
+
+            <div class="img-overlay p-btn--1 p-btn--3 ">
+                <img src="images/project6.jpg" alt="Something went wrong">
+                <div class="overlay">
+                    <a href="#" target="_blank"
+                     class="common-heading"> Project 4
+                    </a>
+                </div>
+            </div> 
+
+            <div class="img-overlay p-btn--1  p-btn--2">
+                <img src="images/project4.jpg" alt="Something went wrong">
+                <div class="overlay">
+                    <a href="#" target="_blank"
+                     class="common-heading"> Project 5
+                    </a>
+                </div>
+            </div> 
+
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/project5.jpg" alt="Something went wrong">
+                <div class="overlay">
+                    <a href="#" target="_blank"
+                     class="common-heading"> Project 6
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- ===========================
+        our work counter section Start -- 
+    ================================ -->
+
+
+    <section class="section section-work-data">
+      <div class="container grid grid-four-column">
+        <div>
+        <h2 class="counter-numbers">6000+</h2>
+        <p>Project Completed</p>
+       </div>
+
+      <div>
+        <h2 class="counter-numbers">3000+</h2>
+        <p>Happy clients</p>
+      </div>
+
+      <div>
+        <h2 class="counter-numbers">5000+</h2>
+        <p>cup of tea</p>
+      </div>
+
+      <div>
+        <h2 class="counter-numbers">6000+</h2>
+        <p>real Professionals</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- ===========================
+        service section part Start -- 
+    ================================ -->
+    <section class="section service-section">
+        <div class="container">
+            <h2 class="common-heading">Service Offers</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, assumenda doloremque! Eveniet natus qui et optio maxime iusto, explicabo error?
+            </p>
+        </div>
+         
+        <!-- Service offer cards -->
+        <div class="container grid grid-three-column">
+         <div class="service-box">
+            <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+            <h3>Web Design</h3>
+            <p>
+                "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult."
+            </p>
+         </div>
+
+         <div class="service-box">
+            <ion-icon name="logo-electron" class="service-icon"></ion-icon>
+            <h3>Web Development</h3>
+            <p>
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos nihil cumque nulla iure quas hic veniam, nesciunt libero beatae error voluptatem officiis quibusdam quaerat, eligendi numquam molestias iste consectetur est.
+            </p>
+         </div>
+
+         <div class="service-box">
+            <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+            <h3>Photography</h3>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo aliquid vero architecto impedit distinctio sint praesentium! Exercitationem aliquid cum quibusdam sit alias! Laborum, iure placeat alias sed rerum facere.
+            </p>
+         </div>
+
+         <div class="service-box">
+            <ion-icon name="apps-sharp" class="service-icon"></ion-icon>
+            <h3>Mobile Apps</h3>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ratione! In quos incidunt magnam quas quae corporis odio impedit possimus, at aliquid. Totam, velit nostrum odio esse assumenda fugit eum!
+            </p>
+         </div>
+
+         <div class="service-box">
+            <ion-icon name="logo-gitlab" class="service-icon"></ion-icon>
+            <h3>Apps Interface</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae animi voluptatibus eligendi corrupti quas sapiente dicta. Repellendus, quibusdam natus earum error fugiat eveniet vero facilis!
+            </p>
+         </div>
+
+
+         <div class="service-box">
+            <ion-icon name="phone-portrait-sharp" class="service-icon"></ion-icon>
+            <h3>Graphic Design</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio laborum hic, vel aliquam nulla consequuntur culpa officiis dicta maiores deserunt corrupti rerum, aspernatur incidunt eligendi inventore! Recusandae odit ratione aliquam?
+            </p>
+         </div>
+        </div>
+    </section>
+
+     <!-- ===========================
+        testimonial  section part Start -- 
+    ================================ -->
+
+    <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">Happy Clients</h2>
+        </div>
+         <!-- Swiper -->
+  <div class="swiper mySwiper container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <!-- section start -->
+        <div class="swiper-client-mg">
+            <P>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, deleniti natus aspernatur accusamus neque nihil reiciendis possimus fuga quas!
+            </P>
+        </div>
+        <div class="swiper-client-data grid grid-two-column">
+            <figure>
+                <img src="images/a.jpg" alt="client image">
+            </figure>
+            <div class="client-data-details">
+                <p>James</p>
+                <p>Entrepreneur</p>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <!-- section start -->
+        <div class="swiper-client-mg">
+            <P>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, deleniti natus aspernatur accusamus neque nihil reiciendis possimus fuga quas!
+            </P>
+        </div>
+        <div class="swiper-client-data grid grid-two-column">
+            <figure>
+                <img src="images/b.jpg" alt="client image">
+            </figure>
+            <div class="client-data-details">
+                <p>John </p>
+                <p>Editor</p>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <!-- section start -->
+        <div class="swiper-client-mg">
+            <P>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, deleniti natus aspernatur accusamus neque nihil reiciendis possimus fuga quas!
+            </P>
+        </div>
+        <div class="swiper-client-data grid grid-two-column">
+            <figure>
+                <img src="images/c.jpg" alt="client image">
+            </figure>
+            <div class="client-data-details">
+                <p>Elijah</p>
+                <p>Fashion Designer</p>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <!-- section start -->
+        <div class="swiper-client-mg">
+            <P>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, deleniti natus aspernatur accusamus neque nihil reiciendis possimus fuga quas!
+            </P>
+        </div>
+        <div class="swiper-client-data grid grid-two-column">
+            <figure>
+                <img src="images/d.jpg" alt="client image">
+            </figure>
+            <div class="client-data-details">
+                <p>Alex</p>
+                <p>Tutor</p>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <!-- section start -->
+        <div class="swiper-client-mg">
+            <P>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, deleniti natus aspernatur accusamus neque nihil reiciendis possimus fuga quas!
+            </P>
+        </div>
+        <div class="swiper-client-data grid grid-two-column">
+            <figure>
+                <img src="images/e.jpg" alt="client image">
+            </figure>
+            <div class="client-data-details">
+                <p>Jesica</p>
+                <p>Entrepreneur</p>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <!-- section start -->
+        <div class="swiper-client-mg">
+            <P>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, deleniti natus aspernatur accusamus neque nihil reiciendis possimus fuga quas!
+            </P>
+        </div>
+        <div class="swiper-client-data grid grid-two-column">
+            <figure>
+                <img src="images/f.jpg" alt="client image">
+            </figure>
+            <div class="client-data-details">
+                <p>William</p>
+                <p>Bussiness Man</p>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <!-- section start -->
+        <div class="swiper-client-mg">
+            <P>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, deleniti natus aspernatur accusamus neque nihil reiciendis possimus fuga quas!
+            </P>
+        </div>
+        <div class="swiper-client-data grid grid-two-column">
+            <figure>
+                <img src="images/g.jpg" alt="client image">
+            </figure>
+            <div class="client-data-details">
+                <p>Oliverr</p>
+                <p>Gamer</p>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <!-- section start -->
+        <div class="swiper-client-mg">
+            <P>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, deleniti natus aspernatur accusamus neque nihil reiciendis possimus fuga quas!
+            </P>
+        </div>
+        <div class="swiper-client-data grid grid-two-column">
+            <figure>
+                <img src="images/h.jpg" alt="client image">
+            </figure>
+            <div class="client-data-details">
+                <p>Noah</p>
+                <p>Photographer</p>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <!-- section start -->
+        <div class="swiper-client-mg">
+            <P>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae, deleniti natus aspernatur accusamus neque nihil reiciendis possimus fuga quas!
+            </P>
+        </div>
+        <div class="swiper-client-data grid grid-two-column">
+            <figure>
+                <img src="images/c.jpg" alt="client image">
+            </figure>
+            <div class="client-data-details">
+                <p>Liam</p>
+                <p>Entrepreneur</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+    </section>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+</html>
